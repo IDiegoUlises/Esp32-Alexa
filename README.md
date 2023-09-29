@@ -147,13 +147,13 @@ void setup() {
     if (device_name == lampara and state == 0)
     {
       digitalWrite(led, LOW);
-      Serial.begin("Lampara apagada");
+      Serial.println("Lampara apagada");
     }
 
     else if (device_name == lampara and state == 1)
     {
       digitalWrite(led, HIGH);
-      Serial.begin("Lampara Encendida");
+      Serial.println("Lampara Encendida");
     }
 
     /*
