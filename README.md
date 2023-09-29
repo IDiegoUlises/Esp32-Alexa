@@ -81,14 +81,14 @@ void setup() {
     
       if (state) 
       {
-        digitalWrite(led, LOW);
-        Serial.println("Lampara apagada");
+        digitalWrite(led, HIGH);
+        Serial.println("Lampara Encendida");
         
       } 
       else 
       {
-        digitalWrite(led, HIGH);
-        Serial.println("Lampara encendida");
+        digitalWrite(led, LOW);
+        Serial.println("Lampara APAGADA");
       }
       }//Cerrar
       
