@@ -144,13 +144,13 @@ void setup() {
     Serial.printf("[MAIN] Device #%d (%s) state: %s value: %d\n", device_id, device_name, state ? "ON" : "OFF", value);
 
 
-    if (device_name == lampara and estate == 0)
+    if (device_name == lampara and state == 0)
     {
       digitalWrite(led, LOW);
       Serial.begin("Lampara apagada");
     }
 
-    else if (device_name == lampara and estate == 1)
+    else if (device_name == lampara and state == 1)
     {
       digitalWrite(led, HIGH);
       Serial.begin("Lampara Encendida");
