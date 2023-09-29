@@ -101,24 +101,30 @@ void setup() {
   }
 ```
 
-### Codigo nuevo experimental no probadado
+### Codigo nuevo experimental que funciona y falta poco para que sea produccion
 ```c++
+#include <WiFi.h>
 #include <fauxmoESP.h>
 
-fauxmoESP fauxmo;
-
-#define lampara "lampara"
-
 // Wifi Credenciales
-#define WIFI_SSID "Wifi Home"
-#define WIFI_PASSWORD "S4m4sw3n0s"
+const char *WIFI_SSID =  "Wifi Home";
+const char *WIFI_PASSWORD  = "S4m4sw3n0s";
 
+//Led
 int led = 2;
 
-void setup() {
+//Nombre para interactuar con la voz
+const char *lampara = "lampara";
 
+//Objeto para despues inicializar
+fauxmoESP fauxmo;
+
+void setup()
+{
+  //Incializa el puerto serial
   Serial.begin(115200);
 
+  //Declaracion del led
   pinMode(led, OUTPUT);
 
   //Conexion Wifi
@@ -133,52 +139,37 @@ void setup() {
   //Imprime la direccion IP
   Serial.print("\nWiFi connected. IP address: ");
   Serial.println(WiFi.localIP());
-  /////Conexion wifi
 
-  fauxmo.addDevice(lampara);
+  //Agrega el dispositivo
+  fauxmo.addDevice(lampara); //Si existen mas comandos de voz agregar mas dispositivos
 
-  fauxmo.setPort(80); // required for gen3 devices
+  fauxmo.setPort(80); //Requerido para los dispositivos de generacion 3
   fauxmo.enable(true);
 
-  fauxmo.onSetState([](unsigned char device_id, const char * device_name, bool state, unsigned char value) {
+  fauxmo.onSetState([](unsigned char device_id, const char * device_name, bool state, unsigned char value)
+  {
     Serial.printf("[MAIN] Device #%d (%s) state: %s value: %d\n", device_id, device_name, state ? "ON" : "OFF", value);
 
-
-    if (device_name == lampara and state == 0)
-    {
-      digitalWrite(led, LOW);
-      Serial.println("Lampara apagada");
-    }
-
-    else if (device_name == lampara and state == 1)
+    //Strcmp hace una comparacion de dos const char* ya que es la unica manera de comparar el contenido que almacena y ademas luego compara el estado
+    if (strcmp(device_name, lampara) == 0  and state == 1)
     {
       digitalWrite(led, HIGH);
-      Serial.println("Lampara Encendida");
+      Serial.println("Lampara ENCENDIDA");
     }
 
-    /*
-        if ( (strcmp(device_name, lampara) == 0) )
-        {
-          Serial.println("lampara 1 switched by Alexa");
+    //Hace una comparacion de dos const char* y para agregar mas dispositivos agregar mas else if
+    else if (strcmp(device_name, lampara) == 0  and state == 0)
+    {
+      digitalWrite(led, LOW);
+      Serial.println("Lampara APAGADA");
+    }
 
-          if (state)
-          {
-            digitalWrite(led, HIGH);
-            Serial.println("Lampara Encendida");
-
-          }
-          else
-          {
-            digitalWrite(led, LOW);
-            Serial.println("Lampara APAGADA");
-          }
-          }//Cerrar
-    */
   });
 
 }
 
-void loop() {
+void loop()
+{
   fauxmo.handle();
 }
 ```
