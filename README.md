@@ -1,5 +1,3 @@
-# Esp32-Alexa
-
 ### Librerias
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/fauxmo.png" />
 
@@ -9,7 +7,7 @@
 
 * AsyncTCP se debe instalar porque es una dependencia de la libreria anterior
 
-### Configurar en amazon
+### Configuracion desde la app de Amazon
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/1.jpeg" width="350" height="650" />
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/2.jpeg" width="350" height="650" />
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/3.jpeg" width="350" height="650" />
