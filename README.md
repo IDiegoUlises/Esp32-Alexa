@@ -42,7 +42,7 @@
 
 // Wifi Credenciales
 const char *WIFI_SSID =  "Wifi Home";
-const char *WIFI_PASSWORD  = "S4m4sw3n0s";
+const char *WIFI_PASSWORD  = "123456789";
 
 //Led
 int led = 2;
