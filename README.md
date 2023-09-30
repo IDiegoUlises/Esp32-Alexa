@@ -11,7 +11,14 @@
 
 ### Configurar en amazon
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/1.jpeg" width="350" height="650" />
-
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/2.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/3.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/4.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/5.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/6.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/7.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/8.jpeg" width="350" height="650" />
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/9.jpeg" width="350" height="650" />
 
 
 ### Codigo nuevo experimental que funciona y falta poco para que sea produccion
