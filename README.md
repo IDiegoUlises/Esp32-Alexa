@@ -9,7 +9,9 @@
 
 * AsyncTCP se debe instalar porque es una dependencia de la libreria anterior
 
-  
+### Configurar en amazon
+<img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/1.jpeg" width="450" height="800" />
+
 
 
 ### Codigo nuevo experimental que funciona y falta poco para que sea produccion
