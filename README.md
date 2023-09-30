@@ -45,7 +45,6 @@ void setup()
   //Declaracion del led
   pinMode(led, OUTPUT);
 
-  //Conexion Wifi
   //Se conecta la a red wifi, en caso de no conectarse quedara en un bucle infinito
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   while (WiFi.status() != WL_CONNECTED)
