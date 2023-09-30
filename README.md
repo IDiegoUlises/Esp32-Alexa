@@ -7,7 +7,7 @@
 
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/AsyncTCP.png" />
 
-* AsyncTCP
+* AsyncTCP se debe instalar porque es una dependencia de la libreria anterior
 
   
 
