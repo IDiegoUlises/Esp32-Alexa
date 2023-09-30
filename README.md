@@ -3,7 +3,7 @@
 ### Librerias
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/fauxmo.png" />
 
-* fauxmo
+* Fauxmo
 
 
 ### Codigo nuevo experimental que funciona y falta poco para que sea produccion
