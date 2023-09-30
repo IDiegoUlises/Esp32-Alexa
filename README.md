@@ -9,13 +9,29 @@
 
 ### Paso 1: Ir a dispositivos en la aplicacion de Amazon
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/1.jpeg" width="350" height="650" />
+
+### Paso 2: Agregar Dispositivo
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/2.jpeg" width="350" height="650" />
+
+### Paso 3: Seleccionar Luz
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/3.jpeg" width="350" height="650" />
+
+### Paso 4: Seleccionar marca otros
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/4.jpeg" width="350" height="650" />
+
+### Paso 5: Seleccionar el logotipo WiFi
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/5.jpeg" width="350" height="650" />
+
+### Paso 6: Seleccionar Detectar Dispositivos
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/6.jpeg" width="350" height="650" />
+
+### Paso 7: Esperar
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/7.jpeg" width="350" height="650" />
+
+### Paso 8: Seleccionar Configurar Dispositivo
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/8.jpeg" width="350" height="650" />
+
+### Paso 9: Finalizar
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/9.jpeg" width="350" height="650" />
 
 
