@@ -2,6 +2,7 @@
 
 ### Librerias
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/fauxmo.png" />
+
 * fauxmo
 
 
