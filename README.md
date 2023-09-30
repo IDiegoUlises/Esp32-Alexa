@@ -79,7 +79,7 @@ void setup()
   fauxmo.setPort(80); //Requerido para los dispositivos de generacion 3
   fauxmo.enable(true);
 
-  //Funcion que se ejecutara cuando se interactue con la voz,devuelve 3 valores que son; el nombre del dispositivo, el estado y un valor analogico en caso que exista
+  //Funcion que se ejecutara cuando se interactue con la voz, devuelve 3 valores que son; el nombre del dispositivo, el estado y un valor analogico en caso que exista
   fauxmo.onSetState([](unsigned char device_id, const char * device_name, bool state, unsigned char value)
   {
     //Strcmp hace una comparacion de dos const char* ya que es la unica manera de comparar el contenido, y si el usuario dice que se encienda la lampara se ejecutara lo siguiente
@@ -89,7 +89,7 @@ void setup()
       Serial.println("Lampara Encendida");
     }
 
-    //Hace una comparacion de dos const char*,para agregar mas dispositivos agregar mas else if, si el usuario dice apaga la lampara se ejecutara lo siguiente
+    //Hace una comparacion de dos const char*,para agregar mas dispositivos agregar mas else if, si el usuario dice que se apague la lampara se ejecutara lo siguiente
     else if (strcmp(device_name, lampara) == 0  and state == 0)
     {
       digitalWrite(led, LOW);
