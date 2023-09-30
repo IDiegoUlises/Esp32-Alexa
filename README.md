@@ -35,7 +35,7 @@
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/9.jpeg" width="350" height="650" />
 
 
-### Codigo nuevo experimental que funciona y falta poco para que sea produccion
+### Codigo
 ```c++
 #include <WiFi.h>
 #include <fauxmoESP.h>
