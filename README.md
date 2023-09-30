@@ -8,6 +8,7 @@
 * AsyncTCP se debe instalar porque es una dependencia de la libreria anterior
 
 ### Configuracion desde la app de Amazon
+### Paso 1: Ir a ajustes
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/1.jpeg" width="350" height="650" />
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/2.jpeg" width="350" height="650" />
 <img src="https://github.com/IDiegoUlises/Esp32-Alexa/blob/main/Imagenes/3.jpeg" width="350" height="650" />
